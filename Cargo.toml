@@ -1,0 +1,17 @@
+[package]
+name = "webfile"
+version = "0.1.0"
+authors = ["Jiahao Huang <july2993@gmail.com>"]
+
+[lib]
+name = "webfile"
+
+[dependencies]
+fuse = "0.3"
+libc = "0.2"
+hyper = "~0.7"
+futures = "0.1"
+tokio-core = "0.1"
+regex = "0.2"
+time = "0.1"
+url = "1.5"
